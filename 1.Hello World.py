@@ -16,7 +16,7 @@ GREEN = (0, 255, 0)
 BLUE = (0, 0, 255)
 
 #set up the fonts
-basicFont = pygame.font.Sysfont(None, 48)
+basicFont = pygame.font.SysFont(None, 48)
 
 #set up the text
 text = basicFont.render('Hello World!', True, WHITE, BLUE)
@@ -39,7 +39,7 @@ pygame.draw.line(windowSurface, BLUE, (60, 120), (120, 120), 4)
 pygame.draw.circle(windowSurface, BLUE, (300, 50), 20, 0)
 
 #draw a red ellipse onto the surface
-pygame.draw.ellipse(windowSurface, RED, (300, 250, 40, 80) 1)
+pygame.draw.ellipse(windowSurface, RED, (300, 250, 40, 80), 1)
 
 #draw the text's background rectangle onto the surface
 pygame.draw.rect(windowSurface, RED, (textRect.left - 20, textRect.top - 20, textRect.width + 40, textRect.height + 40))
