@@ -19,7 +19,7 @@ UPRIGHT = 'upright'
 MOVESPEED = 7
 
 #setup the colors
-WHITE = (255, 255, 255)
+BG = (0, 0, 0)
 RED = (250, 0, 50)
 GREEN = (0, 200, 0)
 BLUE = (75, 50, 255)
@@ -41,7 +41,7 @@ while True:
             sys.exit()
 
     #draw the white background on the surface
-    windowSurface.fill(WHITE)
+    windowSurface.fill(BG)
 
     for b in boxes:
         #move the box data structure
