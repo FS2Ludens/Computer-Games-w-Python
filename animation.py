@@ -29,7 +29,7 @@ RANDOM = (250, 150, 100)
 b1 = {'rect':pygame.Rect(239, 500, 275, 115), 'color':RED, 'dir':UPRIGHT}
 b2 = {'rect':pygame.Rect(453, 176, 75, 150), 'color':GREEN, 'dir':UPLEFT}
 b3 = {'rect':pygame.Rect(151, 32, 250, 250), 'color':BLUE, 'dir':DOWNLEFT}
-b4 = {'rect':pygame.Rect(100, 50, 85, 80), 'color':RANDOM, 'dir':DOWNRIGHT}
+b4 = {'rect':pygame.Rect(100, 50, 43, 32), 'color':RANDOM, 'dir':DOWNRIGHT}
 boxes = [b4, b3, b2, b1]
 
 #run the game loop
